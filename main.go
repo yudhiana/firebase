@@ -41,7 +41,7 @@ func main() {
 
 	ref := client.NewRef("user")
 
-	// child := ref.Child("data")
+	// // child := ref.Child("data")
 	ref.Set(ctx, map[string]*User{
 		"awesome": {
 			DateOfBirth: "june 23, 1921",
